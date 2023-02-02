@@ -1,0 +1,48 @@
+
+/* ABSTRACT STYLING */ 
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
+/* VENDORS STYLING */ 
+@import 'vendors/sass-flexbox/scss/main.scss';
+
+/* BASE STYLING */ 
+@import 'base/typography';
+@import 'base/borders';
+@import 'base/backgrounds';
+@import 'base/spacing';
+@import 'base/box-shadow';
+
+
+
+
+/* LAYOUT STYLING */ 
+@import 'layouts/grid';
+@import 'layouts/header';
+@import 'layouts/body';
+@import 'layouts/main-content';
+@import 'layouts/sidebar';
+@import 'layouts/navigation';
+@import 'layouts/forms';
+@import 'layouts/sections';
+
+
+/* UI ELEMENTS STYLING */ 
+
+@import 'ui-elements/components';
+
+/* PAGE STYLING */ 
+@import 'pages/project';
+@import 'pages/post';
+@import 'pages/index';
+@import 'pages/contact';
+@import 'pages/category';
+
+
+/* THEME STYLING */ 
+@import 'themes/default';
+@import 'themes/dark-mode';
+
+

@@ -1,0 +1,23 @@
+
+ @import '../abstracts/variables';
+
+
+
+@media #{$breakpoint-medium} {
+
+.wrapper {      
+        width: 95%;
+        max-width: $grid-max-width;     
+        }
+    @for $i from 1 through $grid-columns {      
+        .column-#{$i} {         
+            width: calc(100% / ($grid-columns * $i));   
+            }           
+        }   
+aside{
+display: flex; 
+    flex-direction: column;
+    justify-content: flex-end; 
+    max-width: 440px; 
+}
+}
