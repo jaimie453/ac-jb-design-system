@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/*The first thing we're going to add is a global reset and box-sizing rule. 
+Ensures padding applied to our elements is added within their calculated dimensions*/
+/*
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    }
+/*Ensures all images behave fluidly
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto !important; 
+    }
+
+
+/*Working mobile first so starts out as 100%
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*adding clearfix rules to general row items
+.wrapper:after,
+.row:after {
+      content: "";
+      display: table;
+      clear: both; 
+      }
+
+/*Attribute selector to target and style all columns*/ 
+/*There will be columns defined for column 1 through column 6, each of which is a different size
+[class*='column-'] {
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px; 
+ 
+}      
+
+
+span{
+    display: block;
+    background: #c2f0ff;
+    padding: 1em 0;
+    text-align: center;
+}
+*/
+
+html{
+    font-size: 100%; 
+}
+
+body {
+    font-family: Space Grotesk, sans-serif;
+
+    }

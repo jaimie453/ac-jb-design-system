@@ -1,0 +1,82 @@
+h1, .header1, .heading1{
+    font-size: 1.875rem; 
+    font-weight: 600;
+    letter-spacing: 0.5%;
+    margin: 0;
+}
+
+h2, .header2, .heading2{
+    font-size: 1.75rem; 
+    font-weight: 600;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+h3, .header3, .heading3{
+    font-size: 1.5rem; 
+    font-weight: 600;
+    letter-spacing: 0.5%;
+   
+
+}
+
+h4, .header4, .heading4{
+    font-size: 1.25rem; 
+    font-weight: 700;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+h5, .header5, .heading5{
+    font-size: 1.125rem; 
+    font-weight: 600;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+h6, .header6, .heading6{
+    font-size: 1.0rem; 
+    font-weight: 600;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+p, .p, .body-text{
+    font-size: 1.0rem;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+.small-body-text{ 
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+.smallest-body-text{ 
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.5%;
+    margin: 0;
+
+}
+
+.bold{
+    font-weight: 700; 
+}
+
+.semi-bold{
+    font-weight: 600; 
+}
+
+.regular{
+    font-weight: 400; 
+}
