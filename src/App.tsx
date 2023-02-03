@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <Button label="Button component" onClick={handleClick} />
 
+      {/* This button won't inherit the styling from the Button component above, 
+        since the component is styled using a .module.scss file*/}
       <button>Button tag</button>
     </div>
   );
