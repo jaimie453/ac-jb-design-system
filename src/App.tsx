@@ -1,5 +1,5 @@
-import { Button } from './components/button/Button'
-import './app.css'
+import { Button } from './components/button/Button';
+import './app.css';
 
 function App() {
   return (
@@ -8,11 +8,11 @@ function App() {
 
       <button>Button tag</button>
     </div>
-  )
+  );
 }
 
 function handleClick() {
-  alert("hello");
+  alert('hello');
 }
 
-export default App
+export default App;

@@ -1,5 +1,4 @@
-// not apart of the original library - added on to allow for custom padding values 
-
+// not apart of the original library - added on to allow for custom padding values
 
 // @function get-gutter-size($element-type) {
 //     @if $element-type == "content" {
@@ -11,10 +10,10 @@
 //   main {
 //     font-size: get-font-size("header");
 //   }
-//   #footer { 
-//     font-size: get-font-size("footer"); 
+//   #footer {
+//     font-size: get-font-size("footer");
 //   }
 
-main{
-    $gutter: 0; 
-   }
+main {
+  $gutter: 0;
+}

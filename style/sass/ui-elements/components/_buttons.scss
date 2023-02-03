@@ -1,134 +1,119 @@
-
-button{
-    background: rgb(254 214 216 / 0%);
-    border-radius: 4px;
-    border: none;
-    padding: 16px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 600;
-    font-size: 1.125rem;
-    letter-spacing: 0.02rem; 
-    font-variant: small-caps;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-variant-caps: small-caps;
-    position: relative;
-    background-blend-mode: soft-light;
+button {
+  background: rgb(254 214 216 / 0%);
+  border-radius: 4px;
+  border: none;
+  padding: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 0.02rem;
+  font-variant: small-caps;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variant-caps: small-caps;
+  position: relative;
+  background-blend-mode: soft-light;
 }
 
-button:hover{
-    background: rgb(254 214 216 / 32%);
-    box-shadow: 0px 0px 8px 0px #00000029;
-
-   
+button:hover {
+  background: rgb(254 214 216 / 32%);
+  box-shadow: 0px 0px 8px 0px #00000029;
 }
 
-
-button:selected{
-  box-shadow: 0px 0px 5px 0px #0000002E;
+button:selected {
+  box-shadow: 0px 0px 5px 0px #0000002e;
 }
 
-
-button:active{
+button:active {
   box-shadow: 0px 0px 6px 0px #00000036 inset;
   background: rgb(254 214 216 / 16%);
 }
 
-button.btn::before{
-    content: "";
+button.btn::before {
+  content: '';
 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background: rgb(255 145 149);
-    position: absolute;
-    background-blend-mode: normal;
-    /* opacity: 48%; */
-    z-index: -1;
-    border-radius: 4px;
-
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgb(255 145 149);
+  position: absolute;
+  background-blend-mode: normal;
+  /* opacity: 48%; */
+  z-index: -1;
+  border-radius: 4px;
 }
 
-
-
-.menu-icon-shape{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between;
-    height: 24px;
-    text-align: center; 
+.menu-icon-shape {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  text-align: center;
 }
 
-.menu-trigger .button::before{
-    border-radius: 100%;
+.menu-trigger .button::before {
+  border-radius: 100%;
 }
 
-
-.icon-bar{
-    width: 24px;
-    height: 3.25px; 
-    border-radius: 8px;  
-    background: $color-primary; 
-    margin: auto;
+.icon-bar {
+  width: 24px;
+  height: 3.25px;
+  border-radius: 8px;
+  background: $color-primary;
+  margin: auto;
 }
 
-
-
-
-.icon-bar.middle{
-    visibility: visible; 
+.icon-bar.middle {
+  visibility: visible;
 }
 
-.icon-bar.top, .icon-bar.bottom{
-    transform: none;
-    transition: transform .5s; 
- 
+.icon-bar.top,
+.icon-bar.bottom {
+  transform: none;
+  transition: transform 0.5s;
 }
 
-.menu-icon{ 
-    width: 24px; 
-    margin: auto; 
+.menu-icon {
+  width: 24px;
+  margin: auto;
 }
 
-.icon-button{
-    width: 56px;
-    height: 56px;
-    background: #FAFDFF;
-    border: solid $color-primary 3px; 
-    padding: 0; 
-    border-radius: 100%;
-
+.icon-button {
+  width: 56px;
+  height: 56px;
+  background: #fafdff;
+  border: solid $color-primary 3px;
+  padding: 0;
+  border-radius: 100%;
 }
 
-.icon-button:hover{
-    background: $color-primary-tints-05; 
-    transition: background .5s; 
+.icon-button:hover {
+  background: $color-primary-tints-05;
+  transition: background 0.5s;
 }
 
-.icon-button.open{
-    background: $color-primary-tints-90; 
-    transition: background .5s; 
+.icon-button.open {
+  background: $color-primary-tints-90;
+  transition: background 0.5s;
 }
 
-.icon-button.open .icon-bar{
-    background: #FAFDFF;
+.icon-button.open .icon-bar {
+  background: #fafdff;
 }
 
-.icon-button.open .icon-bar.top{
-        transform: translate(0px, 8px) rotate(45deg);
-        transition: transform .5s; 
-
+.icon-button.open .icon-bar.top {
+  transform: translate(0px, 8px) rotate(45deg);
+  transition: transform 0.5s;
 }
 
-.icon-button.open .icon-bar.bottom{
-    transform: translate(0px, -8px) rotate(-45deg);
-    transition: transform .5s; 
-
+.icon-button.open .icon-bar.bottom {
+  transform: translate(0px, -8px) rotate(-45deg);
+  transition: transform 0.5s;
 }
 
-.icon-button.open .icon-bar.middle{
-    visibility: hidden; 
+.icon-button.open .icon-bar.middle {
+  visibility: hidden;
 }

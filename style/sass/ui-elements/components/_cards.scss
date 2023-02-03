@@ -1,49 +1,44 @@
-@import "../../abstracts/variables";
-
-
-
+@import '../../abstracts/variables';
 
 .cards-container {
-        position: relative;
-        padding: 1rem; 
-      
-      .card-figure {
-        overflow: hidden;
-        background-color: #e0e0e0;
-      }
-      .card-body {
-        display: flex;
-        flex-direction: column;
-        border-radius: 24px; 
-        border: solid 1px $color-neutral-tints-10;
-        overflow: hidden;
-        height: 100%;
-        
-      }
-      .card-title {
-        font-size: 1.2rem;
-        margin-bottom: 0.2rem;
-      }
-      .card-text {
-        padding: 1.5em; 
-        font-size: 1rem;
-      }
-      .card-link {
-        text-decoration: none;
-      }
+  position: relative;
+  padding: 1rem;
 
-      .category{
-        background: $color-secondary-tints-10;
-        border: 2px solid $color-secondary;
-        border-radius: $space-md; 
-        padding: $space-xs $space-s; 
-        
-        @include padding-y-xs; 
-        color: $color-primary;
-        width: fit-content;
-        margin-right: 8px; 
-        margin-bottom: 8px;
-        margin-top: 0;
-      }
-    
+  .card-figure {
+    overflow: hidden;
+    background-color: #e0e0e0;
   }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    border: solid 1px $color-neutral-tints-10;
+    overflow: hidden;
+    height: 100%;
+  }
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .card-text {
+    padding: 1.5em;
+    font-size: 1rem;
+  }
+  .card-link {
+    text-decoration: none;
+  }
+
+  .category {
+    background: $color-secondary-tints-10;
+    border: 2px solid $color-secondary;
+    border-radius: $space-md;
+    padding: $space-xs $space-s;
+
+    @include padding-y-xs;
+    color: $color-primary;
+    width: fit-content;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+}

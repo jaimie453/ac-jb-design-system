@@ -15,16 +15,21 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? classes['storybook-button--primary'] : classes['storybook-button--secondary'];
+  const mode = primary
+    ? classes['storybook-button--primary']
+    : classes['storybook-button--secondary'];
 
   return (
     <button
       type="button"
-      className={[classes['storybook-button'], classes[`storybook-button--${size}`], mode].join(' ')}
+      className={[
+        classes['storybook-button'],
+        classes[`storybook-button--${size}`],
+        mode,
+      ].join(' ')}
       {...props}
     >
       {label}
     </button>
   );
-  
 };

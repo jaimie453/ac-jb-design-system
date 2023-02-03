@@ -1,24 +1,20 @@
-
-/* ABSTRACT STYLING */ 
+/* ABSTRACT STYLING */
 
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 
-/* VENDORS STYLING */ 
+/* VENDORS STYLING */
 @import 'vendors/sass-flexbox/scss/main.scss';
 
-/* BASE STYLING */ 
+/* BASE STYLING */
 @import 'base/typography';
 @import 'base/borders';
 @import 'base/backgrounds';
 @import 'base/spacing';
 @import 'base/box-shadow';
 
-
-
-
-/* LAYOUT STYLING */ 
+/* LAYOUT STYLING */
 @import 'layouts/grid';
 @import 'layouts/header';
 @import 'layouts/body';
@@ -28,21 +24,17 @@
 @import 'layouts/forms';
 @import 'layouts/sections';
 
-
-/* UI ELEMENTS STYLING */ 
+/* UI ELEMENTS STYLING */
 
 @import 'ui-elements/components';
 
-/* PAGE STYLING */ 
+/* PAGE STYLING */
 @import 'pages/project';
 @import 'pages/post';
 @import 'pages/index';
 @import 'pages/contact';
 @import 'pages/category';
 
-
-/* THEME STYLING */ 
+/* THEME STYLING */
 @import 'themes/default';
 @import 'themes/dark-mode';
-
-

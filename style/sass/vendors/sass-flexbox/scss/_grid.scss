@@ -51,7 +51,7 @@
 }
 
 .align-stretch {
-    align-self: stretch;
+  align-self: stretch;
 }
 
 // Mixin to run inside of for loop - creates col/breakpoint classes * Not for developer use *
@@ -108,21 +108,21 @@
 
 @for $i from 1 through length($breakpoint-up-prefixes) {
   $thisPrefix: nth($breakpoint-up-prefixes, $i);
-  @if $thisPrefix == "xs" {
+  @if $thisPrefix == 'xs' {
     @include col-factory($thisPrefix);
-  } @else if $thisPrefix == "sm" {
+  } @else if $thisPrefix == 'sm' {
     @media #{$breakpoint-sm-up} {
       @include col-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "md" {
+  } @else if $thisPrefix == 'md' {
     @media #{$breakpoint-md-up} {
       @include col-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "lg" {
+  } @else if $thisPrefix == 'lg' {
     @media #{$breakpoint-lg-up} {
       @include col-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "xl" {
+  } @else if $thisPrefix == 'xl' {
     @media #{$breakpoint-xl-up} {
       @include col-factory($thisPrefix);
     }
@@ -130,9 +130,9 @@
 }
 
 .col-gutter-lr {
-    padding: 0 $gutter;
+  padding: 0 $gutter;
 }
 
 .col-no-gutter {
-    padding: 0;
+  padding: 0;
 }

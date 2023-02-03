@@ -1,4 +1,3 @@
-
 .show {
   display: flex !important;
 }
@@ -30,37 +29,37 @@
 
 @for $i from 1 through length($breakpoint-all-prefixes) {
   $thisPrefix: nth($breakpoint-all-prefixes, $i);
-  @if $thisPrefix == "xs" {
+  @if $thisPrefix == 'xs' {
     @include vis-factory($thisPrefix);
-  } @else if $thisPrefix == "xs-only" {
+  } @else if $thisPrefix == 'xs-only' {
     @media #{$breakpoint-xs-only} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "sm" {
+  } @else if $thisPrefix == 'sm' {
     @media #{$breakpoint-sm-up} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "sm-only" {
+  } @else if $thisPrefix == 'sm-only' {
     @media #{$breakpoint-sm-only} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "md" {
+  } @else if $thisPrefix == 'md' {
     @media #{$breakpoint-md-up} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "md-only" {
+  } @else if $thisPrefix == 'md-only' {
     @media #{$breakpoint-md-only} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "lg" {
+  } @else if $thisPrefix == 'lg' {
     @media #{$breakpoint-lg-up} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "lg-only" {
+  } @else if $thisPrefix == 'lg-only' {
     @media #{$breakpoint-lg-only} {
       @include vis-factory($thisPrefix);
     }
-  } @else if $thisPrefix == "xl" {
+  } @else if $thisPrefix == 'xl' {
     @media #{$breakpoint-xl-up} {
       @include vis-factory($thisPrefix);
     }
